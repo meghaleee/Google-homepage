@@ -1,0 +1,1 @@
+This is the first project that I did with the help of The Odin Project.
