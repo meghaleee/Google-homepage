@@ -24,19 +24,19 @@ body{
 .top-left-navbar{
     display: flex;
     float: left;
-    padding: 0.5em;
+    padding: 0.2em 0.5em;
 }
 
 .top-right{
     float: right;
     display: flex;
-    padding: 0.5em;
-    margin-right: 0.5em;
+    padding: 0.2em 0.5em;
+    margin-right: 1em;
 }
 
 .top-right-navbar{
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 li{
@@ -47,7 +47,8 @@ li{
 
 li span{
     font-family: 'Material Icons';
-    font-size: 1.5em;
+    font-size: 1.8em;
+    color: #666666;
 }
 
 a{
@@ -58,12 +59,14 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
 .signin {
     padding: 0.5em;
     background-color: #4285F4;
     border: #4285F4;
     color: #ffffff;
     font-weight: bold;
+    border-radius: 4px;
 }
 
 .main-content{
@@ -72,10 +75,20 @@ a:hover{
     left: 40%;
 }
 
+.google-logo{
+    left:2em;
+}
+
+.material-icons-outlined{
+    font-family: 'Material Icons';
+    font-size: 1.5em;
+
+}
+
 .search-bar{
    width: 100%;
    position: relative;
-   left: -10em;
+   left: -12em;
    padding: 1.5em;
 }
 
@@ -87,7 +100,26 @@ input {
 }
 
 input:hover{
-    box-shadow: 0 0 11px #cccccc;
+    box-shadow: 0 0 4px #cccccc;
+}
+
+.buttons {
+ margin-top: 0.5em;
+}
+
+.first {
+    padding: 0.9em;
+    margin-right: 0.9em;
+    border: none;
+    color:#666666;
+    border-radius: 4px;
+}
+
+.second {
+    padding: 0.9em;
+    border: none;
+    color: #666666;
+    border-radius: 4px;
 }
 
 .footer{
