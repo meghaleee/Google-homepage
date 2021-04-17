@@ -25,6 +25,7 @@ body{
     display: flex;
     float: left;
     padding: 0.2em 0.5em;
+    align-items: center;
 }
 
 .top-right{
@@ -69,6 +70,11 @@ a:hover{
     border-radius: 4px;
 }
 
+.signin a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .main-content{
     position: absolute;
     top: 25%;
@@ -105,6 +111,15 @@ input:hover{
 
 .buttons {
  margin-top: 0.5em;
+}
+
+.buttons a{
+    text-decoration: none;
+}
+
+.first .second:hover{
+    border: #333333;
+    color: #333333;
 }
 
 .first {
